@@ -30,6 +30,8 @@ ALLOWED_HOSTS = [
     "[::1]",
     "testserver",
     "46.229.213.2",
+    "www.pet-project.ru",
+    "pet-project.ru"
 ]
 
 
