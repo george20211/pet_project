@@ -31,8 +31,3 @@ urlpatterns = [
     #  обработчик для главной страницы ищем в urls.py приложения posts
     path("", include("posts.urls")),
 ]
-
-try:
-    from .local_settings import *
-except ImportError:
-    from .prod_settings import *
