@@ -31,6 +31,7 @@ ALLOWED_HOSTS = [
     "testserver",
     "46.229.213.2",
     "http://pet-project.ru",
+    "pet-project.ru",
 ]
 
 
